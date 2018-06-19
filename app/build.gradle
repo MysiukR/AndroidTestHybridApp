@@ -28,28 +28,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.android.support:design:24.2.1'
     compile group: 'log4j', name: 'log4j', version:'1.2.17'
-    /* compile group: 'commons-codec', name: 'commons-codec', version: '1.10'
-     compile group: 'org.apache.commons', name: 'commons-exec', version: '1.3'
-     compile group: 'commons-logging', name: 'commons-logging', version: '1.2'
-     compile group: 'org.apache.httpcomponents', name: 'httpcore', version: '4.4.4'
-     compile group: 'net.sourceforge.htmlunit', name: 'htmlunit', version: '2.23'
-     compile group: 'cglib', name: 'cglib-nodep', version: '3.2.4'
-     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.4'
-     compile group: 'commons-io', name: 'commons-io', version: '2.5'
-     compile group: 'net.sourceforge.cssparser', name: 'cssparser', version: '0.9.20'
-     compile group: 'com.google.guava', name: 'guava', version: '19.0'
-     compile group: 'com.google.code.gson', name: 'gson', version: '2.3.1'
-     compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.2'
-     compile group: 'net.sourceforge.htmlunit', name: 'htmlunit-core-js', version: '2.23'
-     compile group: 'org.apache.httpcomponents', name: 'httpcore', version: '4.4.4'
-     compile group: 'org.apache.httpcomponents', name: 'httpmime', version: '4.5.2'
-     compile group: 'xml-apis', name: 'xml-apis', version: '1.4.01'
-     compile group: 'xerces', name: 'xercesImpl', version: '2.11.0'
-     compile group: 'xalan', name: 'xalan', version: '2.7.2'
-
-
-     testCompile group: 'org.hamcrest', name: 'hamcrest-library', version: '1.3'
-     testCompile group: 'org.hamcrest', name: 'hamcrest-core', version: '1.3'*/
     testCompile 'junit:junit:4.12'
     compile files('libs/commons-codec-1.10.jar')
     compile files('libs/commons-exec-1.3.jar')
@@ -71,7 +49,6 @@ dependencies {
     compile files('libs/xml-apis-1.4.01.jar')
     compile files('libs/xercesImpl-2.11.0.jar')
     compile files('libs/xalan-2.7.2.jar')
-
     compile files('libs/websocket-common-9.2.15.v20160210.jar')
     compile files('libs/websocket-client-9.2.15.v20160210.jar')
     compile files('libs/websocket-api-9.2.15.v20160210.jar')
